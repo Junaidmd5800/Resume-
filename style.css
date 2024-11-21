@@ -1,0 +1,52 @@
+h1{
+   background-color: aquamarine;
+   font-family: 'Times New Roman', Times, serif;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+#skills{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: xxx-large;
+  
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+}
+#little{
+    color: rgb(27, 245, 208);
+}
+#para{
+    background-color: #00f9fd;
+    color: black;
+}
+.My-Image{
+    height: 400px;
+    border-radius: 30%;
+}
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+
+  .gradient-background2 {
+    background: linear-gradient(300deg, #00bfff, #4cffdb, #72efcc);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
